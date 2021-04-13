@@ -29,5 +29,6 @@ routes.get('/graph', graphController.index);
 routes.get('/graph/:id', graphController.show);
 routes.post('/graph', graphController.store);
 routes.put('/graph/:id', graphController.update);
+routes.delete('/graph/:id', graphController.destroy);
 
 module.exports = routes;
