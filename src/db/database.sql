@@ -13,13 +13,13 @@ CREATE TABLE wallet(
 
 CREATE TABLE currency(
     currency_id SERIAL PRIMARY KEY,
-    usd INT,
-    gbp INT
+    usd VARCHAR(40),
+    gbp VARCHAR(40)
 );
 
 CREATE TABLE graph(
     graph_id SERIAL PRIMARY KEY,
-    usd INT,
-    gbp INT,
+    usd NUMERIC,
+    gbp NUMERIC,
     graph_date VARCHAR(30)
 );
