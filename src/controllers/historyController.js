@@ -22,9 +22,9 @@ module.exports = {
   },
   async store(req, res) {
     try {
-      const { history_id, history_content } = req.body;
-      const newHistory = await pool.query('INSERT INTO history (history_id, history_content) VALUES ($1, $2) RETURNING *',
-        [history_id, history_content]);
+      const { history_content } = req.body;
+      const newHistory = await pool.query('INSERT INTO history (history_content) VALUES ($1) RETURNING *',
+        [history_content]);
       res.json(newHistory.rows[0]);
     } catch (err) {
       console.error(err.message);

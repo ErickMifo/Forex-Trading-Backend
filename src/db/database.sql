@@ -7,8 +7,8 @@ CREATE TABLE history(
 
 CREATE TABLE wallet(
     wallet_id SERIAL PRIMARY KEY,
-    usd INT,
-    gbp INT
+    usd NUMERIC,
+    gbp NUMERIC
 );
 
 CREATE TABLE currency(
