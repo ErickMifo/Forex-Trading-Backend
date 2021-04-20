@@ -30,6 +30,9 @@ Link to the frontend - https://github.com/ErickMifo/module-2-WestPoint-frontend
 
 Every couple of minutes running, the application will show some data related to GBP_USD on the console.
 
+![Captura de Tela (3)](https://user-images.githubusercontent.com/65738815/115391406-cf0fbe00-a1b5-11eb-9635-6388697da6fe.png)
+
+
 You can make CRUD operations using "/wallet", "/currency", "/history" or "/graph".
 
 
