@@ -14,13 +14,15 @@ A backend for a Forex Trading Application made with Nodejs and a couple of depen
 
 ## Instalation 
 
-To install this project, you can git clone and yarn.
+To install this project, you can:
 
-Once everything is installed copy and paste the database.sql on your postgres and run yarn start.
-
-You will need to create 1 element with random values on the wallet table following the schema and more 4 for the graph table, you will not need to do nothing on the history and the currency tables.  
-
-Also you will need to get your own API key on https://free.currencyconverterapi.com/.
+1. Open Git Bash;
+2. Change the current working directory to the location where you want the cloned directory;
+3. Type `git clone https://github.com/ErickMifo/module-2-WestPoint-backend.git`;
+4. Run `yarn` on your terminal to download all the dependencies;
+5. Once everything is installed copy and paste the database.sql on your postgres to create the database and the tables and run yarn start.
+6. You will need to create 4 random values for the graph table following the schema specified on the database.sql. Create values for the other tables are not necessary.
+7. FInally you will need to get your own API key on https://free.currencyconverterapi.com/.
 
 And to make it fully work you will also need the frontend part.
 
