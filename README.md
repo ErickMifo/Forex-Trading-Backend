@@ -12,7 +12,7 @@ A backend for a Forex Trading Application made with Nodejs and a couple of depen
 4. Node-fetch to fetch data from a API;
 5. Socket-io to update data in real time.
 
-## Instalation 
+## Installation 
 
 To install this project, you can:
 
