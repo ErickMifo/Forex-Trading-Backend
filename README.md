@@ -21,8 +21,8 @@ To install this project, you can:
 3. Type `git clone https://github.com/ErickMifo/module-2-WestPoint-backend.git`;
 4. Run `yarn` on your terminal to download all the dependencies;
 5. Once everything is installed copy and paste the database.sql on your postgres to create the database and the tables and run yarn start.
-6. You will need to create 4 random values for the graph table following the schema specified on the database.sql. Create values for the other tables are not necessary.
-7. FInally you will need to get your own API key on https://free.currencyconverterapi.com/.
+6. You will need to create 4 random values for the graph table and 2 for the currency following the schema specified on the database.sql. Create values for the other tables are not necessary.
+7. Finally you will need to get your own API key on https://free.currencyconverterapi.com/.
 
 And to make it fully work you will also need the frontend part.
 
