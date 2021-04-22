@@ -5,6 +5,8 @@ const cors = require('cors');
 const socketio = require('socket.io');
 const http = require('http');
 
+const HOST = '0.0.0.0';
+
 const PORT = process.env.PORT || 3001;
 const app = express();
 const server = http.createServer(app);
@@ -50,4 +52,4 @@ setInterval(async () => {
 
 app.use('/', require('./src/routes'));
 
-server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+server.listen(PORT, HOST, () => console.log(`Server running on port ${PORT}`));

@@ -22,22 +22,10 @@ module.exports = {
   },
   async store(req, res) {
     try {
-      const { history_content } = req.body;
-      const newHistory = await pool.query('INSERT INTO history (history_content) VALUES ($1) RETURNING *',
-        [history_content]);
+      const { history_content, history_email } = req.body;
+      const newHistory = await pool.query('INSERT INTO history (history_email, history_content) VALUES ($1, $2) RETURNING *',
+        [history_email, history_content]);
       res.json(newHistory.rows[0]);
-    } catch (err) {
-      console.error(err.message);
-    }
-  },
-  async update(req, res) {
-    try {
-      const { id } = req.params;
-      const { history_content } = req.body;
-      // eslint-disable-next-line no-unused-vars
-      const updateHistory = await pool.query('UPDATE history SET history_content = $1 WHERE history_id = $2',
-        [history_content, id]);
-      res.json('History updated');
     } catch (err) {
       console.error(err.message);
     }

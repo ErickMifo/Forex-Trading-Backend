@@ -10,7 +10,6 @@ const graphController = require('../controllers/graphController');
 routes.get('/history', historyController.index);
 routes.get('/history/:id', historyController.show);
 routes.post('/history', historyController.store);
-routes.put('/history/:id', historyController.update);
 routes.delete('/history/:id', historyController.destroy);
 
 routes.get('/currency', currencyController.index);

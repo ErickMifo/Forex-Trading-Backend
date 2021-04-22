@@ -5,7 +5,7 @@ const pool = new Pool({
   user: 'postgres',
   password: process.env.PASSWORD,
   database: 'forex_database',
-  host: 'localhost',
-  port: process.env.PORT,
+  host: 'db',
 });
+
 module.exports = pool;

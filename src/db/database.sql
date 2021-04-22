@@ -2,11 +2,12 @@ CREATE DATABASE forex_database;
 
 CREATE TABLE history(
     history_id SERIAL PRIMARY KEY,
+    history_email VARCHAR(100),
     history_content VARCHAR(100)
 );
 
 CREATE TABLE wallet(
-    wallet_id SERIAL PRIMARY KEY,
+    wallet_id VARCHAR(100),
     usd NUMERIC,
     gbp NUMERIC
 );
