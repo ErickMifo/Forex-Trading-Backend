@@ -24,7 +24,7 @@ To install this project, you can:
 
 And to make it fully work you will also need the frontend part.
 
-Link to the frontend - https://github.com/ErickMifo/module-2-WestPoint-frontend
+Link to the frontend - https://github.com/ErickMifo/Forex-Trading-Frontend
 
 ## Usage
 
