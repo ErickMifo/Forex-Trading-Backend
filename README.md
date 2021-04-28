@@ -1,8 +1,6 @@
-# module-2-WestPoint-backend
+# Forex-Trading-Backend
 
 ## Description
-
-Project made for WestPoint's "Module 2".
 
 A backend for a Forex Trading Application made with Nodejs and a couple of dependencies such as:
 
